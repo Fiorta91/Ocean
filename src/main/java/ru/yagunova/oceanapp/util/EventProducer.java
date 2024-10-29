@@ -66,7 +66,6 @@ public class EventProducer {
         int health = killerwhale.getHealth();
         energy = energy - 20;
         health = health + ((int) MOUTH * 6);
-        if (health > 100) health = 100;
         killerwhale.setEnergy(energy);
         killerwhale.setHealth(health);
         checkEnergyZero(killerwhale);

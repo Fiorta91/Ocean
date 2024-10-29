@@ -3,7 +3,7 @@ package ru.yagunova.oceanapp.entity;
 public class Killerwhale {
     private int health = 100;
     private int energy = 100;
-    private float mouth = 2.5F;
+    public static final float MOUTH = 2.5F;
 
     public void setHealth(int health) {
         this.health = health;
@@ -19,9 +19,5 @@ public class Killerwhale {
 
     public int getEnergy() {
         return energy;
-    }
-
-    public float getMouth() {
-        return mouth;
     }
 }
